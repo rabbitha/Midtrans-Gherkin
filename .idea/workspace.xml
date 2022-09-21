@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62714a7a-ad6e-4c83-927d-2428f762c7fc" name="Changes" comment="" />
+    <list default="true" id="62714a7a-ad6e-4c83-927d-2428f762c7fc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/StepDefinitions/Login/LoginAccountStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StepDefinitions/RegistrationAccount/RegistrationAccountStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/RegistrationAccount/registrationAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baseAction/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baseAction/Hook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/LoginAccount/loginAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/LoginAccount/loginAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/RegistrationAccount/regitrationAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Features/RegistrationAccount/RegistrationAccount.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Features/RegistrationAccount/RegistrationAccount.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Features/RegistrationAccount/RegistrationAccount.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Features/RegistrationAccount/RegistrationAccount.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/baseAction/Hook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/baseAction/Hook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/repository/LoginAccount/loginAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/repository/LoginAccount/loginAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/repository/RegistrationAccount/regitrationAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/runner$run.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/runner$run.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +45,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/repository/RegistrationAccount/regitrationAccount.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/repository/RegistrationAccount/registrationAccount.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/runner.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -53,9 +69,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/StepDefinitions/PaymentMethod" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="StepDefinitions.RegistrationAccount" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ThinkPad T450\Documents\java\Midtrans-Gherkin\src\main\resources\Features\RegistrationAccount" />
       <recent name="C:\Users\ThinkPad T450\Documents\java\Midtrans-Gherkin\src\main\resources\Features\PaymentMethod" />
@@ -67,16 +86,16 @@
       <recent name="StepDefinitions.LoginAccount" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Buyer can payment with debit/credit card method">
-    <configuration name="Scenario: Buyer can payment with debit/credit card method" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.runner$run">
+    <configuration name="Scenario: Businessman can create account" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/Features/PaymentMethod/PaymentMethod.feature" />
-      <option name="GLUE" value="StepDefinitions.PaymentMethod baseAction" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/Features/RegistrationAccount/RegistrationAccount.feature" />
+      <option name="GLUE" value="StepDefinitions.RegistrationAccount baseAction" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Midtrans-Gherkin" />
-      <option name="NAME_FILTER" value="^Buyer can payment with debit\/credit card method$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Buyer can payment with debit\/credit card method$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Buyer can payment with debit/credit card method" />
+      <option name="NAME_FILTER" value="^Businessman can create account$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Businessman can create account$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Businessman can create account" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -88,15 +107,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: User can see other user name and profile  picture when they sent me a message" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Businessman can login account" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/privateChat/privateChat.feature" />
-      <option name="GLUE" value="StepDefinitions.privateChat" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/Features/LoginAccount/LoginAccount.feature" />
+      <option name="GLUE" value="StepDefinitions.RegistrationAccount StepDefinitions.Login baseAction" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Midtrans-Gherkin" />
-      <option name="NAME_FILTER" value="^User can see other user name and profile  picture when they sent me a message$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User can see other user name and profile  picture when they sent me a message$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: User can see other user name and profile  picture when they sent me a message" />
+      <option name="NAME_FILTER" value="^Businessman can login account$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Businessman can login account$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Businessman can login account" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -108,15 +127,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: User can send message to another user using search bar" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Businessman can't create account with blank data" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/privateChat/privateChat.feature" />
-      <option name="GLUE" value="StepDefinitions.privateChat StepDefinitions.groupChat" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/Features/RegistrationAccount/RegistrationAccount.feature" />
+      <option name="GLUE" value="StepDefinitions.RegistrationAccount baseAction" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Midtrans-Gherkin" />
-      <option name="NAME_FILTER" value="^User can send message to another user using search bar$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User can send message to another user using search bar$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: User can send message to another user using search bar" />
+      <option name="NAME_FILTER" value="^Businessman can\'t create account with blank data$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Businessman can\'t create account with blank data$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Businessman can't create account with blank data" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -128,15 +147,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Users can see other members names and profile pictures after they send messages" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Businessman can't login account with wrong password" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/groupChat/groupChat.feature" />
-      <option name="GLUE" value="baseAction StepDefinitions.groupChat" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/Features/LoginAccount/LoginAccount.feature" />
+      <option name="GLUE" value="StepDefinitions.RegistrationAccount StepDefinitions.Login baseAction" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Midtrans-Gherkin" />
-      <option name="NAME_FILTER" value="^Users can see other members names and profile pictures after they send messages$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Users can see other members names and profile pictures after they send messages$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Users can see other members names and profile pictures after they send messages" />
+      <option name="NAME_FILTER" value="^Businessman can\'t login account with wrong password$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Businessman can\'t login account with wrong password$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Businessman can't login account with wrong password" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -161,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Buyer can payment with debit/credit card method" />
         <item itemvalue="TestNG.runner$run" />
-        <item itemvalue="Cucumber Java.Scenario: User can see other user name and profile  picture when they sent me a message" />
-        <item itemvalue="Cucumber Java.Scenario: Users can see other members names and profile pictures after they send messages" />
-        <item itemvalue="Cucumber Java.Scenario: User can send message to another user using search bar" />
+        <item itemvalue="Cucumber Java.Scenario: Businessman can login account" />
+        <item itemvalue="Cucumber Java.Scenario: Businessman can't login account with wrong password" />
+        <item itemvalue="Cucumber Java.Scenario: Businessman can't create account with blank data" />
+        <item itemvalue="Cucumber Java.Scenario: Businessman can create account" />
       </list>
     </recent_temporary>
   </component>
