@@ -5,19 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62714a7a-ad6e-4c83-927d-2428f762c7fc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/StepDefinitions/Login/LoginAccountStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StepDefinitions/RegistrationAccount/RegistrationAccountStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/RegistrationAccount/registrationAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StepDefinitions/Login/LoginAccountStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StepDefinitions/Login/LoginAccountStep.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/baseAction/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baseAction/Hook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/LoginAccount/loginAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/LoginAccount/loginAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/repository/RegistrationAccount/regitrationAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/RegistrationAccount/registrationAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/RegistrationAccount/registrationAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Features/RegistrationAccount/RegistrationAccount.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Features/RegistrationAccount/RegistrationAccount.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Features/RegistrationAccount/RegistrationAccount.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Features/RegistrationAccount/RegistrationAccount.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Features/LoginAccount/LoginAccount.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Features/LoginAccount/LoginAccount.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Features/LoginAccount/LoginAccount.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Features/LoginAccount/LoginAccount.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StepDefinitions/Login/LoginAccountStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StepDefinitions/Login/LoginAccountStep.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/baseAction/Hook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/baseAction/Hook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/repository/LoginAccount/loginAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/repository/LoginAccount/loginAccount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/repository/RegistrationAccount/regitrationAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/repository/RegistrationAccount/registrationAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/repository/RegistrationAccount/registrationAccount.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/runner$run.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/runner$run.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-reports.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports.html" afterDir="false" />
     </list>
@@ -86,7 +83,26 @@
       <recent name="StepDefinitions.LoginAccount" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.runner$run">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Businessman can create account">
+    <configuration name="Feature: RegistrationAccount" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/Features/RegistrationAccount/RegistrationAccount.feature" />
+      <option name="GLUE" value="StepDefinitions.RegistrationAccount" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Midtrans-Gherkin" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: RegistrationAccount" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Businessman can create account" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/Features/RegistrationAccount/RegistrationAccount.feature" />
@@ -147,26 +163,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Businessman can't login account with wrong password" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/Features/LoginAccount/LoginAccount.feature" />
-      <option name="GLUE" value="StepDefinitions.RegistrationAccount StepDefinitions.Login baseAction" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Midtrans-Gherkin" />
-      <option name="NAME_FILTER" value="^Businessman can\'t login account with wrong password$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Businessman can\'t login account with wrong password$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Businessman can't login account with wrong password" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="runner$run" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Midtrans-Gherkin" />
       <option name="PACKAGE_NAME" value="runner" />
@@ -180,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Businessman can create account" />
+        <item itemvalue="Cucumber Java.Scenario: Businessman can't create account with blank data" />
+        <item itemvalue="Cucumber Java.Feature: RegistrationAccount" />
         <item itemvalue="TestNG.runner$run" />
         <item itemvalue="Cucumber Java.Scenario: Businessman can login account" />
-        <item itemvalue="Cucumber Java.Scenario: Businessman can't login account with wrong password" />
-        <item itemvalue="Cucumber Java.Scenario: Businessman can't create account with blank data" />
-        <item itemvalue="Cucumber Java.Scenario: Businessman can create account" />
       </list>
     </recent_temporary>
   </component>
@@ -220,6 +216,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.IllegalArgumentException" package="java.lang" />
           <option name="timeStamp" value="4" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.NoSuchElementException" package="java.util" />
+          <option name="timeStamp" value="5" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>

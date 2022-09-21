@@ -74,6 +74,45 @@ public class LoginAccountStep extends loginAccount {
 
 //-------------------------------------------------------------------------------------------------------------------------//
 //    @RA001
+    @When("Businessman open Login Account Pages")
+    public void businessmanOpenLoginAccountPages() {
+
+        String PageTitle = driver.getTitle();
+        System.out.println("Page Title : " +PageTitle);
+
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(SignUp_Button)));
+
+        driver.findElement(By.xpath(SignUp_Button)).click();
+        System.out.println("Parent window title: " + driver.getTitle());
+
+        Set<String> switchWindow = driver.getWindowHandles();
+        System.out.println(switchWindow);
+        Iterator<String> iterator = switchWindow.iterator();
+        String parentWindow = iterator.next();
+        System.out.println("Parent Window : " +parentWindow);
+        String childWindow = iterator.next();
+        System.out.println("Child  Window : " +childWindow);
+        driver.switchTo().window(childWindow);
+        String childWindow2 = iterator.next();
+        System.out.println("Child  Window : " +childWindow2);
+        driver.switchTo().window(childWindow2);
+
+        driver.findElement(By.cssSelector(Login_TextLink)).click();
+
+        String URLLogin_Actual = driver.getCurrentUrl();
+        System.out.println("Expected Login Page : " + URLLogin_Expected);
+        System.out.println("Actual Login Page : " + URLLogin_Actual);
+        assertEquals(URLLogin_Expected,URLLogin_Actual);
+        System.out.println("--- The URL Login Page is Match ---");
+
+        String TitleLogin_Actual = driver.getTitle();
+        System.out.println("Expected Title Login Page : " + TitleLogin_Expected);
+        System.out.println("Actual Title Login Page : " + TitleLogin_Actual);
+        assertEquals(TitleLogin_Expected,TitleLogin_Actual);
+        System.out.println("--- The Title Login Page is Match ---");
+    }
+
     @And("Businessman fill Form Login Account")
     public void businessmanFillFormLoginAccount() {
         driver.findElement(By.xpath(EmailAddress_Textbox)).sendKeys(EmailValid);
@@ -106,6 +145,5 @@ public class LoginAccountStep extends loginAccount {
 
         System.out.println("--- You on Dashboard Page ---");
     }
-
 
 }

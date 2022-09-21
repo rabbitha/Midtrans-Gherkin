@@ -26,8 +26,8 @@ public class Hook {
     public static String Title_Expected = "Sample Store";
 
 
-    @BeforeAll
-//    @Before
+//    @BeforeAll
+    @Before
     public static void beforeAfter(){
         WebDriverManager.chromedriver().setup();
         driver.manage().window().maximize();
@@ -55,10 +55,10 @@ public class Hook {
         System.out.println("--- Hei, you on homepage! ---");
     }
 
-    @AfterAll
-//    @After
-//    public static void teardown() {
-//        driver.quit();
-//    }
+//    @AfterAll
+    @After
+    public static void teardown() {
+        driver.quit();
+    }
 
 }

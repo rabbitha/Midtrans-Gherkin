@@ -17,8 +17,8 @@ public class registrationAccount {
     //Registration Personal Data
     public static String BusinessName = "Pillow Soft Yello";
     public static String FullName = "Pillow Company";
-    public static String BusinessEmail = "bisnis@testing.com";
-    public static String BusinessPhoneNumber = "857456123741";
+    public static String BusinessEmail = "bisnis100@testing.com";
+    public static String BusinessPhoneNumber = "857456123001";
     public static String Password = "IniCobaDulu01" ;
     public static String ConfirmPassword = "IniCobaDulu01";
 

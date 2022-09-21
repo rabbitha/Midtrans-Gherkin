@@ -7,7 +7,7 @@ public class runner {
             features = "src/main/resources/features",
 //            glue= {"stepDefinitions"},-
             plugin = { "html:target/cucumber-reports.html" },
-            tags = "@LoginAccount"
+            tags = "@RegistrationAccount"
     )
     public static class run extends AbstractTestNGCucumberTests{}
 }
